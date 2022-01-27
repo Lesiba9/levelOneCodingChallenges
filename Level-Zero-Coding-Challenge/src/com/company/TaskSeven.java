@@ -1,8 +1,11 @@
 package com.company;
 
 public class TaskSeven {
+    public static void main(String[] args) {
+        System.out.println(celsiusToFahrenheit(27));
+    }
 
-    public double celsiusToFahrenheit(double temp){
+    public static double celsiusToFahrenheit(double temp){
 
         return (temp * 9 / 5) + 32;
     }

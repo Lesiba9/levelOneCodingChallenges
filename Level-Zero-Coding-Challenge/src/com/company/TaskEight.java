@@ -1,8 +1,11 @@
 package com.company;
 
 public class TaskEight {
+    public static void main(String[] args) {
+        System.out.println(timeConversion(10));
+    }
 
-    public void timeConversion(int number){
+    public static int timeConversion(int number){
 
         int hours = number / 60;
         int minutes = number % 60;
@@ -24,5 +27,6 @@ public class TaskEight {
 
         else
             System.out.println(hours + " hour, " + minutes + " minute");
+        return hours;
     }
 }

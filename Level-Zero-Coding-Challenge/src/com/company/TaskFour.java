@@ -1,8 +1,11 @@
 package com.company;
 
 public class TaskFour {
+    public static void main(String[] args) {
+        EvenOrOdd(9);
+    }
 
-    public void EvenOrOdd(int num){
+    public static void EvenOrOdd(int num){
 
         double remainder = num % 2;
 

@@ -1,8 +1,11 @@
 package com.company;
 
 public class TaskFive {
+    public static void main(String[] args) {
+        System.out.println(areaOfATriangle(67.5,45.2,20));
+    }
 
-    public double areaOfATriangle(double length,double width,double height){
+    public static double areaOfATriangle(double length, double width, double height){
 
         double s;
         double area;

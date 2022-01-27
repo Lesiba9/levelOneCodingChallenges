@@ -1,8 +1,7 @@
 package com.company;
 
 public class TaskOne {
-
-    public void taskOne() {
+    public static void main(String[] args) {
 
         int x = 0;
         int y = 1;

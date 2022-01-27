@@ -1,8 +1,7 @@
 package com.company;
 
 public class TaskTwo {
-
-    public void taskTwo() {
+    public static void main(String[] args) {
         double a,b,x,y,z;
 
         x = (double) 1 + 1 * 2;
